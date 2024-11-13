@@ -1,0 +1,8 @@
+ganho_janeiro=float(input("Digite o lucro de janeiro: "))
+ganho_fevereiro=float(input("Digite o lucro de fevereiro: "))
+gastos_de_janeiro=float(input("Digite o gasto de janeiro: "))
+gastos_de_fevereiro=float(input("Digite o gasto de fevereiro: "))
+lucro_de_janeiro=(ganho_janeiro-gastos_de_janeiro)
+lucro_de_fevereiro=(ganho_fevereiro-gastos_de_fevereiro)
+lucro_bimestral=(lucro_de_janeiro+lucro_de_fevereiro)
+print("Seu lucro bimestral é: ",lucro_bimestral)
